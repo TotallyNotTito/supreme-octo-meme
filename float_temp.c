@@ -15,7 +15,7 @@ main(int argc, char * argv[])
 
   while (fahr < max) {
     cels = (5.0/9.0) * fahr;
-    printf(":\t%f\t%f\n", fahr, cels);
+    printf("3.1%f6.1%f\n", fahr, cels);
     fahr = fahr + step;
   } 
 

@@ -1,0 +1,10 @@
+Width and precision may be omitted from a specification: %6f says that the number is to be at
+least six characters wide; %.2f specifies two characters after the decimal point, but the width
+is not constrained; and %f merely says to print the number as floating point.
+print as decimal integer
+%d
+%6d print as decimal integer, at least 6 characters wide
+%f print as floating point
+%6f print as floating point, at least 6 characters wide
+%.2f print as floating point, 2 characters after decimal point
+%6.2f print as floating point, at least 6 wide and 2 after decimal point
